@@ -13,7 +13,7 @@
         <item name="android:background">#F08C35</item>
     </style>
 
-    <style name="CustomLable">
+    <style name="CustomLabel">
         <item name="android:layout_width">250dp</item>
         <item name="android:layout_marginTop">10dp</item>
         <item name="android:layout_marginBottom">30dp</item>

@@ -7,7 +7,7 @@
                 tools:context=".MainActivity">
 
     <TextView
-        style="@style/CustomLable"
+        style="@style/CustomLabel"
         android:id="@+id/lblHeader"
         android:layout_height="wrap_content"
         android:text="@string/Tag_Title" />
@@ -16,37 +16,43 @@
         android:id="@+id/btnSpotify_Streamer"
         style="@style/CustomButton"
         android:layout_height="wrap_content"
-        android:text="@string/Tag_Spotify_Streamer" />
+        android:text="@string/Tag_Spotify_Streamer"
+        android:onClick="showToast"/>
 
     <Button
         style="@style/CustomButton"
         android:id="@+id/btnScores_App"
         android:layout_height="wrap_content"
-        android:text="@string/Tag_Scores_App" />
+        android:text="@string/Tag_Scores_App"
+        android:onClick="showToast"/>
 
     <Button
         style="@style/CustomButton"
         android:id="@+id/btnLibrary_App"
         android:layout_height="wrap_content"
-        android:text="@string/Tag_Library_App" />
+        android:text="@string/Tag_Library_App"
+        android:onClick="showToast"/>
 
 
     <Button
         style="@style/CustomButton"
         android:id="@+id/btnBuild_It_Bigger"
         android:layout_height="wrap_content"
-        android:text="@string/Tag_Build_It_Bigger" />
+        android:text="@string/Tag_Build_It_Bigger"
+        android:onClick="showToast"/>
 
     <Button
         style="@style/CustomButton"
         android:id="@+id/btnXyz_Reader"
         android:layout_height="wrap_content"
-        android:text="@string/Tag_Xyz_Reader" />
+        android:text="@string/Tag_Xyz_Reader"
+        android:onClick="showToast"/>
 
     <Button
         style="@style/CapstoneButton"
         android:id="@+id/btnCapstone"
         android:layout_height="wrap_content"
-        android:text="@string/Tag_Capstone" />
+        android:text="@string/Tag_Capstone"
+        android:onClick="showToast"/>
 
 </LinearLayout>

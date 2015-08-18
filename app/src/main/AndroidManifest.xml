@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SpotifyStreamerMainActivity"
+            android:label="@string/spotify_app_name" >
+
+        </activity>
     </application>
 
 </manifest>
